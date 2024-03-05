@@ -46,6 +46,11 @@ header {
     list-style: none;
 }
 
+.navbar-content img {
+    width: 50px;
+    margin-left: 450px;
+}
+
 .navbar-content a {
     text-decoration: none;
     color: rgb(241, 224, 193);
@@ -79,18 +84,18 @@ header {
     background-position: center; 
 }
 
-
-.page-container {
+.page-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .page-contet h1 {
     font-size: 35px;
     font-weight: bold;
-    color: #a1a1aa;
+    color: #646469;
+    margin-left: 30%;
 }
 
 .page-contet img {
@@ -99,9 +104,15 @@ header {
     margin-left: 100px;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
-    border: 1px solid gray;
-    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
     
 }
 
@@ -110,8 +121,6 @@ header {
     height: 230px;
     display: flex;
     margin-left: 23%; 
+    border-radius: 5px;
 }
 
-.card h1 {
-
-}
